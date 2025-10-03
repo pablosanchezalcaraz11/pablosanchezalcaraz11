@@ -1,8 +1,24 @@
+using System;
 
-#  Pablo Sánchez
-**Tengo 23 años, soy de Alicnate y ahora estoy haciendo un master**
-1.   estudie  un año en estados unidos el primer año de bachiller
-2. tengo un perro que se llama moe 
+namespace PresentacionPersonal
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string nombre = "Pablo";
+            string apellidos = "Sánchez";
+            string ciudad = "Alicante";
+            string estudios = "Estadística";
 
-![alt text](rmarkdown-flexdashboard.png)
-[unos brawls ](https://store.supercell.com/es/brawlstars)
+            Console.WriteLine("Presentación Personal:");
+            Console.WriteLine("-----------------------");
+            Console.WriteLine($"Nombre: {nombre} {apellidos}");
+            Console.WriteLine($"Ciudad de origen: {ciudad}");
+            Console.WriteLine($"Estudios: {estudios}");
+
+            Console.WriteLine("\nPulsa cualquier tecla para salir...");
+            Console.ReadKey();
+        }
+    }
+}
