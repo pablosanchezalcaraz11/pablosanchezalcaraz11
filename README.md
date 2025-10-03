@@ -1,5 +1,6 @@
 using System;
 
+<<<<<<< HEAD
 namespace PresentacionPersonal
 {
     class Program
@@ -22,3 +23,13 @@ namespace PresentacionPersonal
         }
     }
 }
+=======
+#  Pablo Sánchez
+**Tengo 23 años, soy de Alicnate y ahora estoy haciendo un master**
+1.   estudie  un año en estados unidos el primer año de bachiller
+
+
+
+
+
+>>>>>>> 3d97d8c7ea2eb4358e617dee76e898da2567d042
